@@ -1,2 +1,5 @@
-# spam_detection_ai
-Implementation of a Naive Bayes Classifier for Spam-Detection, with Bag of Words and Python with its built in packages only.
+# Warum die Tests und Dockerfiles? ML-Ops
+Die Tests und Dockerfiles sind für die Entwicklung, und das Deployment der Anwendung notwendig. 
+Die Tests werden in der CI/CD Pipeline ausgeführt und die Dockerfiles werden für das Deployment der Anwendung verwendet.
+
+MLops ist ein Ansatz, der die Entwicklung von Machine Learning Modellen vereinfachen soll.
