@@ -3,7 +3,6 @@ import re
 
 
 class BagOfWords:
-    # Similar to CountVectorizer in Scikit-Learn?
     def __init__(self, corpus_messages: list):
         self.corpus = corpus_messages
 
