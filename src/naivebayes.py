@@ -81,7 +81,6 @@ class NaiveBayes:
             return self.smooth_param / (self.Nham + self.voc_size * self.smooth_param)
 
     def classify(self, message):
-        # Classify a message as spam or ham
         prob_given_message_is_spam = self.spam_prob
         prob_given_message_is_ham = self.ham_prob
         for word in message:
